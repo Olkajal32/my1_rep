@@ -2,8 +2,10 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+st.title("Hello...")
 st.title("Welcome Everyone we are learning Python")
 st.write("Python Requires Practice!!!")
+st.write("Here are some graphs.")
 
 data = pd.DataFrame({'c1': [23, 45, 67, 54],
                      'c2': ['A', 'B', 'C', 'D']})
